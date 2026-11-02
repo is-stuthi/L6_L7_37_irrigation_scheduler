@@ -1,0 +1,11 @@
+> coverage run --branch -m pytest BranchCoverageTest_irrigation_scheduler.py -q
+...............                                                          [100%]
+15 passed in 0.08s
+
+> coverage report -m --include=irrigation_scheduler.py
+Name                      Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------------
+irrigation_scheduler.py      38      0     28      0   100%
+---------------------------------------------------------------------
+TOTAL                        38      0     28      0   100%
+
